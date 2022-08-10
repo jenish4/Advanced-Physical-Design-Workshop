@@ -78,9 +78,13 @@ Placing i/o pins in the area between core and die and then logical cell placment
 
 3. Optimize placement: we estimate wire length & capacitance and, based on that, insert repeaters/buffer to maintain signal integrity.
 
+![](Images/placement.jpg)
+
 #### Cell Design Flow:
 
 Library has standard cells with different functionalities, sizes and voltages.
+
+![](Images/cell_design_flow.jpg)
 
 #### Charaterization:
 
@@ -90,12 +94,38 @@ Library has standard cells with different functionalities, sizes and voltages.
 * *Transition Time = time(slew_high_*_thr) - time()slew_low_*_thr)
 *   *= rise/fall
 
+![](Images/spice.jpg)
+
 ## Labs
 
+![](Images/openlane.jpg)
+
 openlane$ docker
+
 bash -4.2$ ./flow.tcl -interactive
+
 % package require openlane 0.9
+
 % prep -design picorv32a
+
 % run_synthesis
+
+Number of D Flip Flops = 1613
+
+![](Images/dff.jpg)
+
+Number of cells = 14876
+
+![](Images/no_of_cells.jpg)
+
 % run_floorplan
+
+#### Magic:
+
+![](Images/magic.jpg)
+
+![](Images/Magic_ss.jpg)
+
+![](Images/tkcon.jpg)
+
 % run_placement
