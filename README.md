@@ -68,6 +68,34 @@ Multiple Vdd and Vss in a mesh to avoid ground bounce and voltage droop.
 
 #### Pin Placement:
 
+Placing i/o pins in the area between core and die and then logical cell placment blockage for the remaining area.
 
+#### Placement:
+
+1. Bind netlist with physical cells from library
+
+2. Placement on the floorplan
+
+3. Optimize placement: we estimate wire length & capacitance and, based on that, insert repeaters/buffer to maintain signal integrity.
+
+#### Cell Design Flow:
+
+Library has standard cells with different functionalities, sizes and voltages.
+
+#### Charaterization:
+
+* GUNA software
+* Timing Characterization
+* Propogation delay = time(out_*_thr) - time(int_*_thr)
+* *Transition Time = time(slew_high_*_thr) - time()slew_low_*_thr)
+*   *= rise/fall
 
 ## Labs
+
+openlane$ docker
+bash -4.2$ ./flow.tcl -interactive
+% package require openlane 0.9
+% prep -design picorv32a
+% run_synthesis
+% run_floorplan
+% run_placement
