@@ -100,15 +100,15 @@ Library has standard cells with different functionalities, sizes and voltages.
 
 ![](Images/openlane.jpg)
 
-openlane$ docker
+`openlane$ docker`
 
-bash -4.2$ ./flow.tcl -interactive
+`bash -4.2$ ./flow.tcl -interactive`
 
-% package require openlane 0.9
+`% package require openlane 0.9`
 
-% prep -design picorv32a
+`% prep -design picorv32a`
 
-% run_synthesis
+`% run_synthesis`
 
 Number of D Flip Flops = 1613
 
@@ -118,14 +118,20 @@ Number of cells = 14876
 
 ![](Images/no_of_cells.jpg)
 
-% run_floorplan
+==> Flipflop ratio = (number of flip flops) / (number of cells) = 1613/14876 = 0.10842968539 = 10.842968539 %
 
-#### Magic:
+`% run_floorplan`
+
+Magic:
 
 ![](Images/magic.jpg)
 
 ![](Images/Magic_ss.jpg)
 
+Press S key to select and V key to center it.
+
 ![](Images/tkcon.jpg)
 
-% run_placement
+`% run_placement`
+
+---
