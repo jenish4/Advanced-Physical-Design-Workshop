@@ -9,7 +9,11 @@ Using Sky130 and OpenLane
 * https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/
 * https://github.com/Geetima2021/vsdpcvrd
 * https://github.com/nickson-jose/openlane_build_script
+* https://github.com/nickson-jose/vsdstdcelldesign
 * https://positivefb.com/skywater-130nm-installation/
+* https://github.com/AngeloJacobo/OpenLANE-Sky130-Physical-Design-Workshop
+* https://www.youtube.com/watch?v=OT9cecr9aFM
+* 
 
 
 ## Introduction
