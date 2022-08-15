@@ -8,6 +8,8 @@ Using Sky130 and OpenLane
 * https://www.udemy.com/course/vsd-a-complete-guide-to-install-openlane-and-sky130nm-pdk/
 * https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/
 * https://github.com/Geetima2021/vsdpcvrd
+* https://github.com/nickson-jose/openlane_build_script
+* https://positivefb.com/skywater-130nm-installation/
 
 
 ## Introduction
