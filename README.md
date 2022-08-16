@@ -13,7 +13,8 @@ Using Sky130 and OpenLane
 * https://positivefb.com/skywater-130nm-installation/
 * https://github.com/AngeloJacobo/OpenLANE-Sky130-Physical-Design-Workshop
 * https://www.youtube.com/watch?v=OT9cecr9aFM
-* 
+* http://opencircuitdesign.com/open_pdks/install.html
+* https://www.youtube.com/watch?v=KgBLByOkJxA
 
 
 ## Introduction
