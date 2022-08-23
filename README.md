@@ -1,4 +1,4 @@
-# Advanced-Physical-Design-Workshop
+# Advanced-Physical-Design
 Using Sky130 and OpenLane
 
 ### Useful Links:
@@ -15,6 +15,8 @@ Using Sky130 and OpenLane
 * https://www.youtube.com/watch?v=OT9cecr9aFM
 * http://opencircuitdesign.com/open_pdks/install.html
 * https://www.youtube.com/watch?v=KgBLByOkJxA
+
+* http://www.basicstoasics.org/
 
 
 ## Introduction
